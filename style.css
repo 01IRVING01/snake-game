@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d7eaef;
+    flex-direction: column;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-image: url('background.jpg'); /* 将path/to/your/background-image.jpg替换为你的图片路径 */
+    background-size: cover; /* 根据需要调整背景图像大小 */
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
